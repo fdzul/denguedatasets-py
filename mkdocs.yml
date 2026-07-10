@@ -1,0 +1,142 @@
+site_name: denguedatasets
+site_description: A curated collection of open-access dengue fever surveillance and climate datasets for epidemiological research and machine learning in Python.
+site_author: Felipe Antonio Dzul Manzanilla
+site_url: https://fdzul.github.io/denguedatasets_py
+
+repo_name: fdzul/denguedatasets_py
+repo_url: https://github.com/fdzul/denguedatasets_py
+
+copyright: Copyright © 2026 Felipe Dzul
+
+theme:
+  name: material
+  language: en
+
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  palette:
+
+    #######################################################################
+    ## LIGHT
+    #######################################################################
+
+    - scheme: default
+
+      primary: custom
+      accent: custom
+
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    #######################################################################
+    ## DARK
+    #######################################################################
+
+    - scheme: slate
+
+      primary: custom
+      accent: custom
+
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  features:
+
+    # Navigation
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+
+    # Search
+    - search.highlight
+    - search.share
+    - search.suggest
+
+    # TOC
+    - toc.follow
+
+    # Code
+    - content.code.copy
+    - content.code.annotate
+
+    # Tabs
+    - content.tabs.link
+
+plugins:
+  - search
+
+markdown_extensions:
+
+  - admonition
+  - attr_list
+  - footnotes
+
+  - pymdownx.details
+  - pymdownx.superfences
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.magiclink
+
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+
+  generator: false
+
+  social:
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/fdzul
+
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/denguedatasets_py/
+
+    - icon: material/book-open-page-variant
+      link: citation/
+
+nav:
+  - Home: index.md
+  - Examples: example.md
+
+  - Getting Started:
+      - Installation: installation.md
+      - Quick Start: quickstart.md
+
+  - Datasets:
+      - Overview: datasets/index.md
+
+  - API Reference:
+      - Functions: api.md
+
+  - Citation:
+      - How to Cite: citation.md
+
+  - Changelog:
+      - Releases: changelog.md
+
+  - License:
+      - GNU General Public License v3.0 (GPL-3.0) License: license.md

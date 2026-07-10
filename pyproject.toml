@@ -1,0 +1,82 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "denguedatasets"
+version = "0.1.0"
+description = "A curated collection of open-access dengue fever surveillance and climate datasets for epidemiological research and machine learning."
+readme = "README.md"
+license = "GPL-3.0-only"
+requires-python = ">=3.8"
+
+authors = [
+    { name = "Felipe A. Dzul Manzanilla", email = "felipe.dzul.m@gmail.com" },
+    { name = "Fabián Correa Morales", email = "fabiancorrea@msn.com" },
+]
+
+maintainers = [
+    { name = "Felipe A. Dzul Manzanilla", email = "felipe.dzul.m@gmail.com" },
+]
+
+keywords = [
+    "dengue", "arbovirus", "arbovirosis", "vector-borne diseases",
+    "Aedes aegypti", "epidemiology", "public health", "disease surveillance",
+    "outbreak detection", "epidemiological modeling", "spatial analysis",
+    "spatiotemporal analysis", "time series", "climate and health",
+    "machine learning", "deep learning", "LSTM", "data science",
+    "open data", "datasets", "research datasets", "Kaggle datasets",
+    "Bangladesh", "Philippines", "Taiwan", "Sri Lanka", "Brazil", "SINAN",
+    "Colombia", "Pakistan", "India", "Peru", "Jakarta", "Indonesia",
+    "Sierra Leone", "West Africa", "Latin America", "South Asia",
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+]
+
+dependencies = [
+    "pandas>=1.5,<3.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov", "black", "flake8", "mypy"]
+docs = ["mkdocs", "mkdocs-material"]
+
+[project.urls]
+Homepage = "https://github.com/fdzul/denguedatasets_py"
+"Bug Tracker" = "https://github.com/fdzul/denguedatasets_py/issues"
+Documentation = "https://github.com/fdzul/denguedatasets_py"
+"Source Code" = "https://github.com/fdzul/denguedatasets_py"
+"ORCID (Felipe Dzul Manzanilla)" = "https://orcid.org/0000-0002-2085-9141"
+"Author Affiliation" = "https://www.insp.mx"
+
+[tool.setuptools]
+zip-safe = false
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+denguedatasets = ["data/*.csv"]

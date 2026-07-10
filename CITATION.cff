@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+title: denguedatasets
+message: If you use denguedatasets in your research, please cite it as follows.
+type: software
+
+authors:
+  - family-names: Dzul Manzanilla
+    given-names: Felipe Antonio
+    email: felipe.dzul.m@gmail.com
+    orcid: "https://orcid.org/0000-0002-2085-9141"
+    affiliation: Instituto Nacional de Salud Pública (INSP), Mexico
+  - family-names: Correa Morales
+    given-names: Fabián
+    orcid: "https://orcid.org/0000-0002-6193-1242"
+    affiliation: Centro Nacional de Programas Preventivos y Control de Enfermedades (CENAPRECE), Mexico
+
+version: 0.1.0
+date-released: 2026-07-10
+
+abstract: >-
+  A curated collection of open-access dengue fever surveillance and climate
+  datasets for epidemiological research and machine learning.
+
+keywords:
+  - dengue
+  - epidemiology
+  - public health
+  - vector-borne diseases
+  - arbovirus
+  - Aedes aegypti
+  - arbovirosis
+  - dengue-chikungunya
+  - dengue-zika
+  - dengue-chikungunya-zika
+  - outbreak detection
+  - disease surveillance
+  - epidemiological modeling
+  - spatial analysis
+  - spatiotemporal analysis
+  - time series
+  - climate and health
+  - machine learning
+  - deep learning
+  - LSTM
+  - data science
+  - open data
+  - research datasets
+  - Kaggle datasets
+  - Bangladesh
+  - Philippines
+  - Taiwan
+  - Sri Lanka
+  - Brazil
+  - Colombia
+  - Pakistan
+  - India
+  - Peru
+  - Indonesia
+  - Sierra Leone
+  - West Africa
+  - Latin America
+  - South Asia
+  - mosquito
+  - statistical modeling
+  - Python
+  - R
+
+license: GPL-3.0-only
+
+repository-code: "https://github.com/fdzul/denguedatasets_py"
+url: "https://github.com/fdzul/denguedatasets_py"

@@ -1,0 +1,49 @@
+# Main documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+
+# Setup / build confing
+# include setup.cfg
+include pyproject.toml
+
+# Datasets (inside the Python package)
+recursive-include dengue_datasets/data *.csv
+
+# recursive-include dengue_datasets/data *.db
+# recursive-include dengue_datasets/data *.json
+# recursive-include dengue_datasets/data *.zip
+# recursive-include dengue_datasets/data *.gz
+# recursive-include dengue_datasets/data *.rar
+# recursive-include dengue_datasets/data *.7z
+# recursive-include dengue_datasets/data *.tar
+# recursive-include dengue_datasets/data *.tar.gz
+# recursive-include dengue_datasets/data *.tar.bz2
+# recursive-include dengue_datasets/data *.tar.xz
+# recursive-include dengue_datasets/data *.tar.zst
+# recursive-include dengue_datasets/data *.tar.lzma
+# recursive-include dengue_datasets/data *.tar.xz
+# recursive-include dengue_datasets/data *.tar.zst
+# recursive-include dengue_datasets/data *.tar.lzma
+recursive-include dengue_datasets/data *.parquet
+recursive-include dengue_datasets/data *.gpkg
+
+# Include all other files
+# recursive-include dengue_datasets *.*
+
+
+# Additional documentation
+recursive-include docs *.md
+
+
+# Examples
+# recursive-include examples *.ipynb
+recursive-include examples *.py
+
+
+# Do not include
+prune tests
+prune __pycache__
+global-exclude __pycache__/*
+global-exclude *.py[cod]
+global-exclude .DS_Store
