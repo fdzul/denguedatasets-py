@@ -2,6 +2,7 @@
 denguedatasets
 Material for MkDocs Theme
 Author: Felipe Dzul
+Palette source: official package logo (navy / coral / teal / periwinkle)
 ******************************************************************************/
 
 /******************************************************************************
@@ -10,15 +11,24 @@ PALETTE
 
 :root{
 
-  /* Primary colors */
+  /* Primary — logo navy (title "dengue", border, map) */
 
   --md-primary-fg-color:            #132A6B;
   --md-primary-fg-color--light:     #1F5FBF;
   --md-primary-fg-color--dark:      #0E1F4D;
 
-  /* Accent */
+  /* Accent — logo coral (title "datasets", accent dot, "Serotype" slice) */
 
-  --md-accent-fg-color:             #F47F8D;
+  --md-accent-fg-color:             #F06A78;
+  --md-accent-fg-color--transparent: #F06A7826;
+
+  /* Secondary logo colors — from the pie chart legend, used below for
+     admonitions, badges, and chart-like UI elements (not native MkDocs
+     variables, defined here for our own custom rules) */
+
+  --dd-teal:                        #4FB8A0;   /* "Surveillance" slice, palms */
+  --dd-periwinkle:                  #93A8DA;   /* "Entomology" slice, bars */
+  --dd-pale-pink:                   #F6C9CD;   /* map fill */
 
   /* Background */
 
@@ -44,7 +54,11 @@ Dark Mode
 
   --md-primary-fg-color:#1F5FBF;
 
-  --md-accent-fg-color:#F47F8D;
+  --md-accent-fg-color:#F06A78;
+  --md-accent-fg-color--transparent: #F06A7833;
+
+  --dd-teal:#5FCBB2;
+  --dd-periwinkle:#A9BCE6;
 
   --md-default-bg-color:#111827;
 
@@ -98,7 +112,7 @@ LINKS
 
 .md-typeset a:hover{
 
-    color:#F47F8D;
+    color:#F06A78;
 
 }
 
@@ -185,24 +199,32 @@ SEARCH
 }
 
 /******************************************************************************
-ADMONITIONS
+ADMONITIONS — mapped to the logo's pie-chart legend colors, so the docs
+site visually echoes the same four categories shown in the logo
+(Incidence=navy, Serotype=coral, Surveillance=teal, Entomology=periwinkle)
 ******************************************************************************/
 
 .md-typeset .admonition.note{
 
-    border-left:5px solid #1F5FBF;
+    border-left:5px solid var(--dd-periwinkle);
 
 }
 
 .md-typeset .admonition.tip{
 
-    border-left:5px solid #8CCFC1;
+    border-left:5px solid var(--dd-teal);
 
 }
 
 .md-typeset .admonition.warning{
 
-    border-left:5px solid #F47F8D;
+    border-left:5px solid var(--md-accent-fg-color);
+
+}
+
+.md-typeset .admonition.danger{
+
+    border-left:5px solid #C43D4E;
 
 }
 
