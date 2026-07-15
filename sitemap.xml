@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://fdzul.github.io/denguedatasets_py/</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://fdzul.github.io/denguedatasets_py/changelog/</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://fdzul.github.io/denguedatasets_py/citation/</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://fdzul.github.io/denguedatasets_py/datasets/</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://fdzul.github.io/denguedatasets_py/examples/</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://fdzul.github.io/denguedatasets_py/license/</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://fdzul.github.io/denguedatasets_py/quickstart/</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+</urlset>
