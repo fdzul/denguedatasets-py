@@ -1,10 +1,10 @@
 site_name: denguedatasets
 site_description: A curated collection of open-access dengue fever surveillance and climate datasets for epidemiological research and machine learning in Python.
 site_author: Felipe Antonio Dzul Manzanilla
-site_url: https://fdzul.github.io/denguedatasets_py
+site_url: https://fdzul.github.io/denguedatasets-py
 
 repo_name: fdzul/denguedatasets_py
-repo_url: https://github.com/fdzul/denguedatasets_py
+repo_url: https://github.com/fdzul/denguedatasets-py
 
 copyright: Copyright © 2026 Felipe A. Dzul-MAnzanilla | Fabián Correa Morales
 
@@ -113,7 +113,7 @@ extra:
       link: https://github.com/fdzul
 
     - icon: fontawesome/brands/python
-      link: https://pypi.org/project/denguedatasets_py/
+      link: https://pypi.org/project/denguedatasets-py/
 
     - icon: material/book-open-page-variant
       link: citation/
