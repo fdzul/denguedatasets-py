@@ -5,7 +5,7 @@ A Python package providing curated collection of open-access dengue fever survei
 
 __version__ = "0.1.0"
 
-from .core import load_dataset, list_dataset, describe
+from .core import load_dataset, list_datasets, describe
 from .datasets import DATASETS
 
 __all__ = [

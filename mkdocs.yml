@@ -6,7 +6,7 @@ site_url: https://fdzul.github.io/denguedatasets_py
 repo_name: fdzul/denguedatasets_py
 repo_url: https://github.com/fdzul/denguedatasets_py
 
-copyright: Copyright © 2026 Felipe Dzul
+copyright: Copyright © 2026 Felipe A. Dzul-MAnzanilla | Fabián Correa Morales
 
 theme:
   name: material
@@ -120,17 +120,15 @@ extra:
 
 nav:
   - Home: index.md
-  - Examples: example.md
+  - Examples: examples.md
 
   - Getting Started:
-      - Installation: installation.md
       - Quick Start: quickstart.md
 
   - Datasets:
-      - Overview: datasets/index.md
+      - Overview: datasets.md
 
-  - API Reference:
-      - Functions: api.md
+  # - API Reference:- Functions: api.md
 
   - Citation:
       - How to Cite: citation.md

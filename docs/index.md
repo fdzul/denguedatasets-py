@@ -3,7 +3,7 @@
 
 ## Welcome
 
-The `denguedasets` package provide a curated collection of open-access dengue fever surveillance and climate datasets for epidemiological research and machine learning. Includes surveillance records, climatic co-variates, and mortality indicators from Bangladesh, the Philippines, Taiwan, Sri Lanka, Brazil, Colombia, Pakistan, India, Peru, Indonesia, and Sierra Leone, spanning case counts, deaths, case-fatality rates, and associated meteorological variables (temperature, humidity, precipitation) suitable for spatiotemporal analysis, outbreak prediction, machine learning, and time-series modeling from Kaggle."
+The **denguedasets** package provide a curated collection of open-access dengue fever surveillance and climate datasets for epidemiological research and machine learning. Includes surveillance records, climatic co-variates, and mortality indicators from Bangladesh, the Philippines, Taiwan, Sri Lanka, Brazil, Colombia, Pakistan, India, Peru, Indonesia, and Sierra Leone, spanning case counts, deaths, case-fatality rates, and associated meteorological variables (temperature, humidity, precipitation) suitable for spatiotemporal analysis, outbreak prediction, machine learning, and time-series modeling from Kaggle.
 
 ## Philosophy
 
@@ -11,7 +11,8 @@ The authors' vision is to create data packages, functions, or a combination of b
 
 In the case of data packages, the authors' vision is to create specialized packages focused on specific topics and subtopics. Instead of searching through multiple diverse and heterogeneous sources, users can access all these interesting datasets in a single package.
 
-Specifically, in the case of the `denguedasets` package, each included dataset is specialized in dengue fever, providing a valuable source of information for academics, data scientists, statisticians, modelers, university professors, or students interested in working with this combination of topics.
+Specifically, in the case of the **denguedasets** package, each included dataset is specialized in dengue fever, providing a valuable source of information for academics, data scientists, statisticians, modelers, university professors, or students interested in working with this combination of topics.
+
 
 ## Getting Started
 
@@ -19,7 +20,7 @@ Specifically, in the case of the `denguedasets` package, each included dataset i
 
 #### From  PyPI
 
-The easiest way to install the `denguedasets` package is directlty from PyPI:
+The easiest way to install the **denguedatasets** package is directlty from PyPI:
 
 ```bash
 pip install denguedatasets
@@ -30,7 +31,7 @@ pip install denguedatasets
 To get the latest development version with newest features and bugs fixes is directlty from GitHub:
 
 ```bash
-pip install git+https://github.com/fdzul/denguedatasets_py
+pip install git+https://github.com/fdzul/denguedatasets-py
 ```
 
 ### Quick Start Tutorial
@@ -43,21 +44,21 @@ import denguedatasets as dd
 
 #### 2. List available datasets
 
-See all dataset included in the `denguedasets` package
+See all dataset included in the **denguedatasets** package:
 
 ```python
-datasets <- dd.list_datasets()
+datasets = dd.list_datasets()
 print(datasets)
 ```
 
 #### 3. Load a Datasets
 
-Load any dataset as pandas DataFrame
+Load any dataset as pandas DataFrame:
 
 ```python
 
 # 3.1. Load dengue dataset from Brazil
-df <- dd.list_datasets("dengue_brazil")
+df = dd.load_dataset("dengue_brazil")
 
 # 3.2. Display the first rows
 print(df.head())
