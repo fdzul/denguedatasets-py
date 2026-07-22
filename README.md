@@ -1,7 +1,7 @@
 # denguedatasets
 
-[![PyPI version](https://img.shields.io/pypi/v/denguedatasets.svg)](https://pypi.org/project/denguedatasets/)
-[![Downloads](https://img.shields.io/pypi/dm/denguedatasets.svg)](https://pypi.org/project/denguedatasets/)
+[![PyPI version](https://img.shields.io/pypi/v/denguedatasets.svg)](https://pypi.org/project/denguedatasets-py/)
+[![Downloads](https://img.shields.io/pypi/dm/denguedatasets.svg)](https://pypi.org/project/denguedatasets-py/)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
@@ -16,7 +16,7 @@ outbreak prediction, machine learning, and time-series modeling from Kaggle."
 
 ## Installation
 
-You can install the `denguedasets` package from PyPI
+You can install the `denguedatasets` package from PyPI
 ```bash
 pip install denguedatasets
 ```
@@ -103,7 +103,7 @@ misuse of the datasets included in this package.
 ## Development
 
 ```bash
-git clone https://github.com/fdzul/denguedatasets_py.git
+git clone https://github.com/fdzul/denguedatasets-py.git
 cd denguedatasets_py
 pip install -e ".[dev]"
 pytest -v
@@ -116,7 +116,7 @@ If you use this package in your research, please cite it as:
 > Dzul Manzanilla, F.A. & Correa Morales, F. (2026). *denguedatasets*:
 > A curated collection of open-access dengue fever datasets for
 > epidemiological research (Version 0.1.0) [Software].
-> https://github.com/fdzul/denguedatasets_py
+> https://github.com/fdzul/denguedatasets-py
 
 ## Authors
 
@@ -125,6 +125,6 @@ If you use this package in your research, please cite it as:
 
 ## License
 
-The `denguedasets` library es release under **GNU General Public License v3.0 (GPL-3.0)**, which ensures that all source code
+The `denguedatasets` library es release under **GNU General Public License v3.0 (GPL-3.0)**, which ensures that all source code
 and derived works remain free and open-source. See [LICENSE](LICENSE) for details. Individual datasets retain their own
 original licenses as documented in `datasets.md`.
