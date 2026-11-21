@@ -121,7 +121,7 @@ If you use this package in your research, please cite it as:
 ## Authors
 
 - **Felipe A. Dzul Manzanilla** — [ORCID: 0000-0002-2085-9141](https://orcid.org/0000-0002-2085-9141) — Instituto Nacional de Salud Pública (INSP), Mexico
-- **Fabián Correa Morales** — [ORCID: 0000-0002-6193-1242](https://orcid.org/0000-0002-6193-1242) — Centro Nacional de Programas Preventivos y Control de Enfermedades (CENAPRECE), Mexico
+- **Fabián Correa-Morales** — [ORCID: 0000-0002-6193-1242](https://orcid.org/0000-0002-6193-1242) — Centro Nacional de Programas Preventivos y Control de Enfermedades (CENAPRECE), Mexico
 
 ## License
 

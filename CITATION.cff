@@ -4,15 +4,31 @@ message: If you use denguedatasets in your research, please cite it as follows.
 type: software
 
 authors:
-  - family-names: Dzul Manzanilla
-    given-names: Felipe Antonio
-    email: felipe.dzul.m@gmail.com
+  - family-names: "Dzul Manzanilla"
+    given-names: "Felipe Antonio"
+    email: "felipe.dzul.m@gmail.com"
+    affiliation: "Instituto Nacional de Salud Pública (INSP), Mexico"
     orcid: "https://orcid.org/0000-0002-2085-9141"
-    affiliation: Instituto Nacional de Salud Pública (INSP), Mexico
-  - family-names: Correa Morales
-    given-names: Fabián
+  - family-names: "Correa-Morales"
+    given-names: "Fabián"
+    email: "fabiancorrea@msn.com"
+    affiliation: "Centro Nacional de Programas Preventivos y Control de Enfermedades (CENAPRECE), Mexico"
     orcid: "https://orcid.org/0000-0002-6193-1242"
-    affiliation: Centro Nacional de Programas Preventivos y Control de Enfermedades (CENAPRECE), Mexico
+  - family-names: "Morales García"
+    given-names: "Emmanuel"
+    email: "emmorales@uv.mx"
+    affiliation: "Universidad Veracruzana, Mexico"
+    orcid: "https://orcid.org/0000-0002-6837-9227"
+  - family-names: "Cruz López"
+    given-names: "Cecilia"
+    email: "ceccruz@uv.mx"
+    affiliation: "Universidad Veracruzana, Mexico"
+    orcid: "https://orcid.org/0000-0002-9156-5669"
+  - family-names: "Gómez-Dantés"
+    given-names: "Héctor"
+    email: "hector.gomez@insp.mx"
+    affiliation: "Instituto Nacional de Salud Pública (INSP), Mexico"
+    orcid: "https://orcid.org/0000-0002-2025-3641"
 
 version: 0.1.0
 date-released: 2026-07-10

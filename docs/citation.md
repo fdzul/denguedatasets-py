@@ -11,7 +11,7 @@ Dzul Manzanilla, F. A., & Correa Morales, F. (2026). *denguedatasets* (Version 0
 
 ```bibtex
 @software{dzul_manzanilla_2026_1,
-  author    = {Dzul Manzanilla, Felipe Antonio and Correa Morales, Fabián},
+  author    = {Dzul Manzanilla, Felipe Antonio and Correa-Morales, Fabián},
   title     = {denguedatasets},
   version   = {0.1.0},
   date      = {2026-07-10},
@@ -26,19 +26,19 @@ F. A. Dzul Manzanilla and F. Correa Morales, "denguedatasets," version 0.1.0, Ju
 
 ## MLA 9th
 
-Dzul Manzanilla, Felipe Antonio, and Fabián Correa Morales. *denguedatasets*. Version 0.1.0, 10 July 2026, https://github.com/fdzul/denguedatasets-py.
+Dzul Manzanilla, Felipe Antonio, and Fabián Correa-Morales. *denguedatasets*. Version 0.1.0, 10 July 2026, https://github.com/fdzul/denguedatasets-py.
 
 
 ## Chicago 17th (author-date)
 
-Dzul Manzanilla, Felipe Antonio, and Fabián Correa Morales. 2026. denguedatasets. Version 0.1.0. July 10. https://github.com/fdzul/denguedatasets-py.
+Dzul Manzanilla, Felipe Antonio, and Fabián Correa-Morales. 2026. denguedatasets. Version 0.1.0. July 10. https://github.com/fdzul/denguedatasets-py.
 
 ## RIS
 
 ```
 TI  - denguedatasets
 AU  - Dzul Manzanilla, Felipe Antonio
-AU  - Correa Morales, Fabián
+AU  - Correa-Morales, Fabián
 PY  - 2026/07/10
 VL  - 0.1.0
 UR  - https://github.com/fdzul/denguedatasets-py
@@ -51,7 +51,7 @@ ER  -
 ```
 %0 Computer Program
 %A Dzul Manzanilla, Felipe Antonio
-%A Correa Morales, Fabián
+%A Correa-Morales, Fabián
 %D 2026
 %T denguedatasets
 %V 0.1.0
@@ -70,6 +70,6 @@ ER  -
 | Type             | Software                                                              |
 | Repository       | [github.com/fdzul/denguedatasets-py](https://github.com/fdzul/denguedatasets-py) |
 | Authors          | Felipe Antonio Dzul Manzanilla (INSP, Mexico)                         |
-|                  | Fabián Correa Morales (CENAPRECE, Mexico)                             |
+|                  | Fabián Correa-Morales (CENAPRECE, Mexico)                             |
 | ORCID            | [0000-0002-2085-9141](https://orcid.org/0000-0002-2085-9141)          |
 |                  | [0000-0002-6193-1242](https://orcid.org/0000-0002-6193-1242)          |

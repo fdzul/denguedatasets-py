@@ -11,12 +11,15 @@ license = "GPL-3.0-only"
 requires-python = ">=3.8"
 
 authors = [
-    { name = "Felipe A. Dzul Manzanilla", email = "felipe.dzul.m@gmail.com" },
-    { name = "Fabián Correa Morales", email = "fabiancorrea@msn.com" },
+    { name = "Felipe Antonio Dzul Manzanilla", email = "felipe.dzul.m@gmail.com" },
+    { name = "Fabián Correa-Morales", email = "fabiancorrea@msn.com" },
+    { name = "Emmanuel Morales García", email = "emmorales@uv.mx" },
+    { name = "Cecilia Cruz López", email = "ceccruz@uv.mx" },
+    { name = "Héctor Gómez-Dantés", email = "hector.gomez@insp.mx" },
 ]
 
 maintainers = [
-    { name = "Felipe A. Dzul Manzanilla", email = "felipe.dzul.m@gmail.com" },
+    { name = "Felipe Antonio Dzul Manzanilla", email = "felipe.dzul.m@gmail.com" },
 ]
 
 keywords = [
