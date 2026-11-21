@@ -113,15 +113,18 @@ pytest -v
 
 If you use this package in your research, please cite it as:
 
-> Dzul Manzanilla, F.A. & Correa Morales, F. (2026). *denguedatasets*:
-> A curated collection of open-access dengue fever datasets for
-> epidemiological research (Version 0.1.0) [Software].
-> https://github.com/fdzul/denguedatasets-py
+> Dzul Manzanilla, F. A., Correa-Morales, F., Morales García, E., Cruz López, C.,
+> & Gómez-Dantés, H. (2026). *denguedatasets*: A curated collection of
+> open-access dengue fever datasets for epidemiological research
+> (Version 0.1.0) [Software]. https://github.com/fdzul/denguedatasets-py
 
 ## Authors
 
-- **Felipe A. Dzul Manzanilla** — [ORCID: 0000-0002-2085-9141](https://orcid.org/0000-0002-2085-9141) — Instituto Nacional de Salud Pública (INSP), Mexico
+- **Felipe Antonio Dzul Manzanilla** — [ORCID: 0000-0002-2085-9141](https://orcid.org/0000-0002-2085-9141) — Instituto Nacional de Salud Pública (INSP), Mexico
 - **Fabián Correa-Morales** — [ORCID: 0000-0002-6193-1242](https://orcid.org/0000-0002-6193-1242) — Centro Nacional de Programas Preventivos y Control de Enfermedades (CENAPRECE), Mexico
+- **Emmanuel Morales García** — [ORCID: 0000-0002-6837-9227](https://orcid.org/0000-0002-6837-9227) — Universidad Veracruzana, Mexico
+- **Cecilia Cruz López** — [ORCID: 0000-0002-9156-5669](https://orcid.org/0000-0002-9156-5669) — Universidad Veracruzana, Mexico
+- **Héctor Gómez-Dantés** — [ORCID: 0000-0002-2025-3641](https://orcid.org/0000-0002-2025-3641) — Instituto Nacional de Salud Pública (INSP), Mexico
 
 ## License
 
